@@ -5,7 +5,8 @@
 | 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/94221735/144048994-df05f206-2faf-4938-8f25-c9408d269504.gif)|
 
-![Screenshot (45)](https://user-images.githubusercontent.com/94221735/144052026-a2a471fd-1edf-4e68-9775-a8bd643d3230.png)||
+![Screenshot (45)](https://user-images.githubusercontent.com/94221735/144052026-a2a471fd-1edf-4e68-9775-a8bd643d3230.png)
+## Code 
 int main(void)
 {
     uint16_t temp;
