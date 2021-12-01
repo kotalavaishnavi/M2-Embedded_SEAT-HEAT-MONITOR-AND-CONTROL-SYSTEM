@@ -1,4 +1,4 @@
-**
+/**
  * @file SeatHeatingApp.c
  * 
  */
