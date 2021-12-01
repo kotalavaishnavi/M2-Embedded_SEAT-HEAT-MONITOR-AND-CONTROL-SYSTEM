@@ -1,4 +1,4 @@
-# Intoduction
+# Requirements
 
 In this project, we are going to make a Fire Alert System using ATMEGA8 microcontroller and fire sensor. Fire sensor can be of any type, however we are using IR (Infrared) based Fire Sensor. Although IR based Fire Sensors have some disadvantages mostly of inaccuracy, it is the cheapest and easiest way to detect fire.
 
@@ -19,9 +19,30 @@ IR Based Fire sensors have lesser sensing vision, so we are going to mount the f
 1. SimulIDE
 2. Visual Studio
 
-# Cost and Features
-Depending upon the project how well it is built and all the requirements will meet the cost and it can be varied according to the market.
-* It can sense the fire and gives a security alarm to prevent fire accidents
+# High Level Requirements
+| ID | Description | Status |
+|---|---|---|
+| HLR_1 | Microcontroller | Implemented |
+| HLR_2 | Servo motor | Implemented |
+| HLR_3 | Buzzer | Implemented |
+| HLR_4 | Resistor | Implemented |
+| HLR_5 | Capacitor | Implemented |
+| HLR_6 | Button | Implemented |
+| HLR_7 | AVR-ISP PROGRAMMER | Implemented |
+
+# Low Level Requirements
+| ID | Description | Status |
+|---|---|---|
+| LLR_1 | ATmega328 | Implemented |
+| LLR_2 | Servo motor (sg90) | Implemented |
+| LLR_3 | 10KΩ resistor | Implemented |
+| LLR_4 | 1KΩ resistor | Implemented |
+| LLR_5 | 220Ω resistor | Implemented |
+| LLR_6 | 100nF capacitor | Implemented |
+| LLR_7 | AVR-ISP PROGRAMMER | Implemented |
+| LLR_8 | Buzzer | Implemented |
+| LLR_9 | Button | Implemented |
+
 
 # SWOT Analysis
 ## Strengths
@@ -52,26 +73,6 @@ Depending upon the project how well it is built and all the requirements will me
 1. It sense the fire and gives an alarm sound as an output.
 2. It will be helpful in preventing fire accidents in any places.
 
-# High Level Requirements
-| ID | Description | Status |
-|---|---|---|
-| HLR_1 | Microcontroller | Implemented |
-| HLR_2 | Servo motor | Implemented |
-| HLR_3 | Buzzer | Implemented |
-| HLR_4 | Resistor | Implemented |
-| HLR_5 | Capacitor | Implemented |
-| HLR_6 | Button | Implemented |
-| HLR_7 | AVR-ISP PROGRAMMER | Implemented |
-
-# Low Level Requirements
-| ID | Description | Status |
-|---|---|---|
-| LLR_1 | ATmega328 | Implemented |
-| LLR_2 | Servo motor (sg90) | Implemented |
-| LLR_3 | 10KΩ resistor | Implemented |
-| LLR_4 | 1KΩ resistor | Implemented |
-| LLR_5 | 220Ω resistor | Implemented |
-| LLR_6 | 100nF capacitor | Implemented |
-| LLR_7 | AVR-ISP PROGRAMMER | Implemented |
-| LLR_8 | Buzzer | Implemented |
-| LLR_9 | Button | Implemented |
+# Cost and Features
+Depending upon the project how well it is built and all the requirements will meet the cost and it can be varied according to the market.
+* It can sense the fire and gives a security alarm to prevent fire accidents
